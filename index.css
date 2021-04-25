@@ -1,0 +1,26 @@
+.calc-container {
+  background: pink;
+  display: inline-block;
+  border: 1px solid purple;
+
+}
+
+  .input-box {
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid purple;
+  }
+.displaynum-box {
+  margin: 10px;
+}
+button {
+  padding: 7px 10px;
+  margin: 2px 3px;
+  background-color: #b7b7df;
+  transition: background-color 2s, transform 0.1s;
+}
+button:hover {
+  background-color: rgb(185, 136, 231);
+  transform: scale(1.1);
+
+}
